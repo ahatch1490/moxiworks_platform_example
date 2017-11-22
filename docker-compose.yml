@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  MoxiWorksPlatForm.Example:
+    image: MoxiWorksPlatForm.Example
+    build:
+      context: ./MoxiWorksPlatForm.Example
+      dockerfile: Dockerfile

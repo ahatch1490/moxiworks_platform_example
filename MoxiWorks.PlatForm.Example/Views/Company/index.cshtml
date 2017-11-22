@@ -1,0 +1,26 @@
+﻿@using MoxiWorks.Platform
+@using Task = System.Threading.Tasks.Task
+
+@{
+    ViewData["Title"] = "index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (@ViewBag.Result.HasErrors)
+{
+    foreach (MoxiWorksError error in @ViewBag.Result.Errors)
+    {
+        foreach (string message in error.Messages)
+        {
+            <div class="panel alert-danger">
+                @message
+            </div>
+        }
+    }
+}
+<h2>
+    @ViewBag.Result.Item.Name 
+</h2>
+<p>
+    <a asp-controller="Office" asp-action="index" asp-route-companyid=@ViewBag.Result.Item.MoxiWorksCompanyId >Offices</a>
+</p>
+

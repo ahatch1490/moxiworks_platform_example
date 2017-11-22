@@ -1,0 +1,10 @@
+c:\users\lucia\source\repos\MoxiWorks.PlatForm.Example\MoxiWorks.PlatForm.Example\bin\Debug\netcoreapp2.0\MoxiWorksPlatForm.Example.deps.json
+c:\users\lucia\source\repos\MoxiWorks.PlatForm.Example\MoxiWorks.PlatForm.Example\bin\Debug\netcoreapp2.0\MoxiWorksPlatForm.Example.runtimeconfig.json
+c:\users\lucia\source\repos\MoxiWorks.PlatForm.Example\MoxiWorks.PlatForm.Example\bin\Debug\netcoreapp2.0\MoxiWorksPlatForm.Example.runtimeconfig.dev.json
+c:\users\lucia\source\repos\MoxiWorks.PlatForm.Example\MoxiWorks.PlatForm.Example\bin\Debug\netcoreapp2.0\MoxiWorksPlatForm.Example.dll
+c:\users\lucia\source\repos\MoxiWorks.PlatForm.Example\MoxiWorks.PlatForm.Example\bin\Debug\netcoreapp2.0\MoxiWorksPlatForm.Example.pdb
+c:\users\lucia\source\repos\MoxiWorks.PlatForm.Example\MoxiWorks.PlatForm.Example\obj\Debug\netcoreapp2.0\MoxiWorksPlatForm.Example.csproj.CoreCompileInputs.cache
+c:\users\lucia\source\repos\MoxiWorks.PlatForm.Example\MoxiWorks.PlatForm.Example\obj\Debug\netcoreapp2.0\MoxiWorksPlatForm.Example.AssemblyInfoInputs.cache
+c:\users\lucia\source\repos\MoxiWorks.PlatForm.Example\MoxiWorks.PlatForm.Example\obj\Debug\netcoreapp2.0\MoxiWorksPlatForm.Example.AssemblyInfo.cs
+c:\users\lucia\source\repos\MoxiWorks.PlatForm.Example\MoxiWorks.PlatForm.Example\obj\Debug\netcoreapp2.0\MoxiWorksPlatForm.Example.dll
+c:\users\lucia\source\repos\MoxiWorks.PlatForm.Example\MoxiWorks.PlatForm.Example\obj\Debug\netcoreapp2.0\MoxiWorksPlatForm.Example.pdb

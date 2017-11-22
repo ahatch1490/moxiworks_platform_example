@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<form method="get">
+    <div class="panel">
+        <div class="form-group">
+            <label for="clientSearch"> Search</label>
+            <input type="text"  id="clientSearch" class="form-control"/>           
+        </div>
+    </div>    
+</form>
+<div class="panel">
+    @if (ViewBag.Contacts.Count == 0)
+    {
+        <h6>No Contacts Found</h6>
+
+    }
+    else
+    {
+        <table class="table">
+            @foreach (MoxiWorks.Platform.Contact contact in ViewBag.Contacts)
+            {
+                <tr>
+                    <td>
+                        @contact.ContactName   
+                    </td>
+                    <td></td>
+                </tr>
+            } 
+            <tr>
+                <td>@ViewBag.Result.item.TotalPages</td><td></td>
+            </tr>
+        </table>
+         
+       
+        
+                
+    }
+
+</div>

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoxiWorksPlatForm.Example", "MoxiWorks.PlatForm.Example\MoxiWorksPlatForm.Example.csproj", "{19354C9F-4AB9-4714-A835-5B194F7710B1}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{14325889-9B09-4143-B3FA-C3FB7EB1A034}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19354C9F-4AB9-4714-A835-5B194F7710B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19354C9F-4AB9-4714-A835-5B194F7710B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19354C9F-4AB9-4714-A835-5B194F7710B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19354C9F-4AB9-4714-A835-5B194F7710B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14325889-9B09-4143-B3FA-C3FB7EB1A034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14325889-9B09-4143-B3FA-C3FB7EB1A034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14325889-9B09-4143-B3FA-C3FB7EB1A034}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF66A50B-C97B-4079-8031-0EA7A10FA63D}
+	EndGlobalSection
+EndGlobal
