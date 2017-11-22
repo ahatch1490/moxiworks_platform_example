@@ -2,4 +2,6 @@ appsettings.Development.json
 appsettings.json
 .vs
 .idea
+bin
+obj
 
