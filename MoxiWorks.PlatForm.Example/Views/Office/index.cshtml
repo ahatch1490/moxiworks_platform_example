@@ -13,7 +13,8 @@
       
         <tr>
             <td>@o.Name</td>
-            <td></td>
+            <td>@Html.ActionLink("View", "Show", "Office", 
+                     new {moxiWorksCompanyId =  ViewBag.CompanyId, moxiWorksOfficeId = o.MoxiWorksOfficeId }, new  { @class = "btn"})</td>
         </tr>
     }
     <tr>

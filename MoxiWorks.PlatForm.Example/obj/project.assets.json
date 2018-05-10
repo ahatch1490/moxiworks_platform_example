@@ -2806,7 +2806,7 @@
           }
         }
       },
-      "MoxiWorks.Platform/1.1.0": {
+      "MoxiWorks.Platform/1.2.3": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "10.0.3",
@@ -7897,13 +7897,13 @@
         "version.txt"
       ]
     },
-    "MoxiWorks.Platform/1.1.0": {
-      "sha512": "QAViYc6/otn0MzuASSixeyLvX1hanpzyUNO0fyJUUK5hFfFwRKb7pO3H1RFzp3pzhhoSyF8fVxSbyHSBtjwbXQ==",
+    "MoxiWorks.Platform/1.2.3": {
+      "sha512": "gXmlH+w8WNTJfBgxgnBQg8WD8qOlLZ+d1v2IbnUlVdaEpkCgwbBFyihJiGHkG91zfhgn8Uq9UXOJ52+1KIxkkg==",
       "type": "package",
-      "path": "moxiworks.platform/1.1.0",
+      "path": "moxiworks.platform/1.2.3",
       "files": [
         "lib/netstandard2.0/MoxiWorks.Platform.dll",
-        "moxiworks.platform.1.1.0.nupkg.sha512",
+        "moxiworks.platform.1.2.3.nupkg.sha512",
         "moxiworks.platform.nuspec"
       ]
     },
@@ -13408,45 +13408,54 @@
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.0",
-      "MoxiWorks.Platform >= 1.1.0",
+      "MoxiWorks.Platform >= 1.2.3",
       "System.Configuration.ConfigurationManager >= 4.5.0-preview1-25914-04"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lucia\\.nuget\\packages\\": {}
+    "/Users/anthony.hatch/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucia\\source\\repos\\MoxiWorks.PlatForm.Example\\MoxiWorks.PlatForm.Example\\MoxiWorksPlatForm.Example.csproj",
+      "projectUniqueName": "/Users/anthony.hatch/projects/moxiworks_platform_example/MoxiWorks.PlatForm.Example/MoxiWorksPlatForm.Example.csproj",
       "projectName": "MoxiWorksPlatForm.Example",
-      "projectPath": "C:\\Users\\Lucia\\source\\repos\\MoxiWorks.PlatForm.Example\\MoxiWorks.PlatForm.Example\\MoxiWorksPlatForm.Example.csproj",
-      "packagesPath": "C:\\Users\\Lucia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucia\\source\\repos\\MoxiWorks.PlatForm.Example\\MoxiWorks.PlatForm.Example\\obj\\",
+      "projectPath": "/Users/anthony.hatch/projects/moxiworks_platform_example/MoxiWorks.PlatForm.Example/MoxiWorksPlatForm.Example.csproj",
+      "packagesPath": "/Users/anthony.hatch/.nuget/packages/",
+      "outputPath": "/Users/anthony.hatch/projects/moxiworks_platform_example/MoxiWorks.PlatForm.Example/obj",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/anthony.hatch/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {}
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.0"
+            "version": "2.0",
+            "autoReferenced": true
           },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
@@ -13456,13 +13465,13 @@
             "target": "Package",
             "version": "2.0.0"
           },
-          "MoxiWorks.Platform": {
-            "target": "Package",
-            "version": "1.1.0"
-          },
           "System.Configuration.ConfigurationManager": {
             "target": "Package",
             "version": "4.5.0-preview1-25914-04"
+          },
+          "MoxiWorks.Platform": {
+            "target": "Package",
+            "version": "1.2.3"
           }
         },
         "imports": [

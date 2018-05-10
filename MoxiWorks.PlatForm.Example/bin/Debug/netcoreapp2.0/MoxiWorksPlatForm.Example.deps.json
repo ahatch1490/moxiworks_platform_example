@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "4b1f05033fa4a29664bf09bb9e90c53bd860da94"
+    "signature": "c4a271265fa53b7693d242f65e943bfba4b42284"
   },
   "compilationOptions": {
     "defines": [
@@ -26,7 +26,7 @@
           "Microsoft.AspNetCore.All": "2.0.0",
           "Microsoft.NETCore.App": "2.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.0",
-          "MoxiWorks.Platform": "1.1.0",
+          "MoxiWorks.Platform": "1.2.3",
           "System.Configuration.ConfigurationManager": "4.5.0-preview1-25914-04"
         },
         "runtime": {
@@ -2446,7 +2446,7 @@
           "ref/netstandard2.0/Microsoft.Win32.Registry.dll": {}
         }
       },
-      "MoxiWorks.Platform/1.1.0": {
+      "MoxiWorks.Platform/1.2.3": {
         "dependencies": {
           "Newtonsoft.Json": "10.0.3",
           "System.Configuration.ConfigurationManager": "4.5.0-preview1-25914-04",
@@ -5493,12 +5493,12 @@
       "path": "microsoft.win32.registry/4.4.0",
       "hashPath": "microsoft.win32.registry.4.4.0.nupkg.sha512"
     },
-    "MoxiWorks.Platform/1.1.0": {
+    "MoxiWorks.Platform/1.2.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-QAViYc6/otn0MzuASSixeyLvX1hanpzyUNO0fyJUUK5hFfFwRKb7pO3H1RFzp3pzhhoSyF8fVxSbyHSBtjwbXQ==",
-      "path": "moxiworks.platform/1.1.0",
-      "hashPath": "moxiworks.platform.1.1.0.nupkg.sha512"
+      "sha512": "sha512-gXmlH+w8WNTJfBgxgnBQg8WD8qOlLZ+d1v2IbnUlVdaEpkCgwbBFyihJiGHkG91zfhgn8Uq9UXOJ52+1KIxkkg==",
+      "path": "moxiworks.platform/1.2.3",
+      "hashPath": "moxiworks.platform.1.2.3.nupkg.sha512"
     },
     "Newtonsoft.Json/10.0.3": {
       "type": "package",

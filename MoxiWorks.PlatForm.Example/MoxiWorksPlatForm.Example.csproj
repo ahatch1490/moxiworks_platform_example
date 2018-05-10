@@ -6,8 +6,8 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" />
-    <PackageReference Include="MoxiWorks.Platform" Version="1.1.0" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0-preview1-25914-04" />
+    <PackageReference Include="MoxiWorks.Platform" Version="1.2.3" />
   </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
@@ -19,5 +19,10 @@
     <Folder Include="wwwroot\css\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\js\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Home\About.cshtml" />
+    <Content Remove="Views\Home\Contact.cshtml" />
+    <Content Remove="Views\Home\Index.cshtml" />
   </ItemGroup>
 </Project>
